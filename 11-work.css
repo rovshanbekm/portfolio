@@ -1,0 +1,1911 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #282C33;
+}
+.div1{
+    display: fixed;
+    height: 200px;
+}
+.img1{
+    padding-left: 24px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+}
+.vec{
+    width: 24px;
+    position: relative;
+    top: 8px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.vec1{
+    width: 24px;
+    position: relative;
+    top: 20px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.vec2{
+    width: 18px;
+    position: relative;
+    top: 32px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.vec4{
+    width: 24px;
+}
+.select{
+    border: none;
+    background-color: #282C33;
+    color: gray;
+    font-family: Fira Code;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.99px;
+}
+.img2{
+    width: 72px;
+    position: relative;
+    top: -174px;
+    margin-left: 170px;
+}
+.div3{
+    display: flex;
+    position: relative;
+    top: -194px;
+    padding-left: 800px;
+    gap: 42px;
+    transition: transform  ease-out;
+}
+.a1{
+    color: gray;
+    text-decoration: none;
+   
+}
+.a1:hover{
+    text-decoration: underline;
+    color: #fff;
+    transform: scale(1.2);
+}
+.span1{
+    color: #C778DD;
+}
+.elias{
+    font-family: "Fira Code",serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41.98px;
+    color: #fff;
+    padding-left: 170px;
+}
+.span2{
+    color:#C778DD;
+}
+.he{
+    position: relative;
+    top: 32px;
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 170px;
+    color: gray;
+}
+.btn1{
+    width: 148px;
+    height: 38px;
+    border: solid 1px #C778DD;
+    position: relative;
+    top: 70px;
+    margin-left: 170px;
+    background-color: #282C33;
+    color: #fff;
+    transition: transform .3s cubic-bezier(0.4, 0, 1, 1);
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #483B55;
+    border: solid 3px #C778DD;
+}
+.cont{
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.99px;
+}
+.btn1:hover{
+    transform: scale(1.1);
+}
+.div4{
+    display: flex;
+    margin-left: 814px;
+}
+.img3{
+    position: relative;
+    margin-right: 208px;
+    top: -174px;
+}
+.img4{
+    width: 445px;
+    position: absolute;
+    top: 164px;
+    margin-right: 278px;
+}
+.dots{
+    width: 84px;
+    position: relative;
+    top: -38px;
+}
+.div5{
+    width: 394px;
+    height: 38px;
+    border: solid 1px gray;
+    position: relative;
+    top: -32px;
+    margin-left: 830px;
+}
+.rec{
+    position: relative;
+    top: 10px;
+    margin-left: 8px;
+}
+.cur{
+    position: relative;
+    top: -12px;
+    margin-left: 34px;
+    font-family: Fira Code;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.99px;
+    color: white;
+}
+.cur2{
+    color: gray;
+}
+.div6{
+    width: 702px;
+    height: 68px;
+    position: relative;
+    top: 64px;
+    margin-left: 350px;
+    border: solid 1px gray;
+}
+.div7{
+    width: 172px;
+    height: 48px;
+    position: relative;
+    top: -77px;
+    margin-left: 529px;
+    border: solid 1px gray;
+}
+.sv{
+    width: 24px;
+    position: relative;
+    top: -10px;
+    margin-left: 22px;
+    background-color: #282C33;
+}
+.with{
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31.49px;
+    padding-left: 32px;
+    color: #fff;
+    z-index: auto;
+}
+.sv2{
+    width: 24px;
+    position: absolute;
+    top: 56px;
+    margin-left: 650px;
+    background-color: #282C33;
+    z-index: 1;
+}
+.dr{
+    position: relative;
+    top: 8px;
+    padding-left: 4px;
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31.49px;
+    padding-left: 32px;
+    color: #fff;
+    z-index: auto;
+}
+.rec26{
+    position: relative;
+    top: -92px;
+    margin-left: 1086px;
+}
+.project{
+    width: 200px;
+    position: relative;
+    top: 180px;
+    margin-left: 190px;
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41.98px;
+    color: #fff;
+}
+.span3{
+    color: #C778DD;
+}
+.line{
+    position: relative;
+    top: 148px;
+    padding-left: 380px;
+}
+.view{
+    position: relative;
+    top: 148px;
+    margin-left: 254px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-out;
+}
+.view:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.div9{
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    margin-top: 22px;
+}
+.rec22{
+    position: relative;
+    top: 210px;
+    border: solid 2px gray;
+}
+.div10{
+   display: flex;
+   flex-direction: column;
+   margin-left: 188px;
+}
+.ht{
+    height: 34px;
+    padding-left: 6px;
+    padding-top: 4px;
+    font-family: "Fira Code",serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 208px;
+    border: solid 2px gray;
+    color: gray;
+}
+.div11{
+    position: relative;
+    margin-top: 206px;
+    border: solid 2px gray;
+    height: 154px;
+}
+.chert{
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31.49px;
+    position: relative;
+    top: 20px;
+    padding-left: 14px;
+    color: #fff;
+}
+.mine{
+    font-family: "Fira Code",serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 28px;
+    padding-left: 14px;
+    color: gray;
+}
+.live{
+    width: 102px;
+    height: 38px;
+    padding-top: 4px;
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 46px;
+    margin-left: 14px;
+    background-color: #282C33;
+    color: #fff;
+    border: none;
+    border: solid 1px #C778DD;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+.live:hover{
+    border: solid 3px #C778DD;
+    background-color: #483B55;
+    transform: scale(1.1);
+}
+.cash{
+    width: 102px;
+    height: 38px;
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 46px;
+    padding-left: 6px;
+    padding-top: 4px;
+    margin-left: 24px;
+    background-color: #282C33;
+    color: #fff;
+    border: none;
+    border: solid 1px gray;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+.cash:hover{
+    border: solid 3px gray;
+    transform: scale(1.1);
+}
+.rec22-1{
+    position: relative;
+    top: 210px;
+    border: solid 2px gray;
+}
+.react{
+    width: 336px;
+    height: 70px;
+    padding-left: 6px;
+    padding-top: 4px;
+    font-family: "Fira Code",serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 206px;
+    border: solid 2px gray;
+    color: gray;
+}
+.sc{
+    position: relative;
+    top: 16px;
+}
+.div13{
+    width: 336px;
+    position: relative;
+    margin-top: 205px;
+    padding-right: 200px;
+    border: solid 2px gray;
+    height: 154px;
+}
+.pro{
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31.49px;
+    padding-top: 14px;
+    padding-left: 14px;
+    color: white;
+}
+.mine2{
+    width: 260px;
+    font-family: "Fira Code",serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 12px;
+    padding-left: 14px;
+    color: gray;
+}
+.live2{
+    width: 102px;
+    height: 38px;
+    padding-top: 4px;
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 30px;
+    margin-left: 14px;
+    background-color: #282C33;
+    color: #fff;
+    border: none;
+    border: solid 1px #C778DD;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+.live2:hover{
+    border: solid 3px #C778DD;
+    background-color: #483B55;
+    transform: scale(1.1);
+}
+.css{
+    width: 334px;
+    height: 34px;
+    padding-left: 6px;
+    padding-top: 4px;
+    font-family: "Fira Code",serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 204px;
+    border: solid 2px gray;
+    color: gray;
+}
+.div15{
+    width: 334px;
+    position: relative;
+    top: -2px;
+    margin-top: 205px;
+    border: solid 2px gray;
+    height: 186px;
+}
+.kah{
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31.49px;
+    position: relative;
+    top: 20px;
+    padding-left: 14px;
+    color: #fff;
+}
+.get{
+    width: 350px;
+    font-family: "Fira Code",serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 28px;
+    padding-left: 14px;
+    color: gray;
+}
+.live3{
+    width: 102px;
+    height: 38px;
+    padding-top: 4px;
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 44px;
+    margin-left: 14px;
+    background-color: #282C33;
+    color: #fff;
+    border: none;
+    border: solid 1px #C778DD;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+.live3:hover{
+    border: solid 3px #C778DD;
+    background-color: #483B55;
+    transform: scale(1.1);
+}
+.img5{
+    position: relative;
+    top: -184px;
+    margin-left: 542px;
+}
+.skills{
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41.98px;
+    position: relative;
+    top: 160px;
+    padding-left: 194px;
+    color: white;
+}
+.line2{
+    position: relative;
+    top: 128px;
+    padding-left: 350px;
+}
+.dots1{
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: 170px;
+    left: 230px;
+}
+.logo1{
+    width: 114px;
+    height: 114px;
+    position: relative;
+    top: 360px;
+    left: 174px;
+}
+.rec24{
+    width: 86px;
+    height: 86px;
+    position: relative;
+    left: 310px;
+    top: 124px;
+}
+.dots2{
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: 290px;
+    left: 140px;
+}
+.rec24-1{
+    width: 52px;
+    height: 52px;
+    position: relative;
+    top: 330px;
+    left: 214px;
+}
+.div18{
+    display: flex;
+    gap: 16px;
+}
+.lan{
+    margin-top: 64px;
+    margin-left: 700px;
+}
+.lan1{
+    width: 178px;
+    height: 34px;
+    font-family: Fira Code;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.99px;
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 8px;
+    color: #fff;
+}
+.lan2{
+    width: 178px;
+    height: 56px;
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;   
+    margin-top: -2px; 
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 6px; 
+    color: gray;
+}
+.div19{
+    display: flex;
+    flex-direction: column;
+}
+.data{
+    padding-top: 64px;
+}
+.data1{
+    width: 178px;
+    height: 34px;
+    font-family: Fira Code;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.99px;
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 8px;
+    color: #fff;
+}
+.data2{
+    width: 178px;
+    height: 64px;
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;  
+    margin-top: -2px;  
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 6px; 
+    color: gray;
+}
+.man{
+    position: relative;
+    top: 6px;
+}
+.tools{
+    padding-top: 64px;
+}
+.tools1{
+    width: 208px;
+    height: 34px;
+    font-family: Fira Code;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.99px;
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 8px;
+    color: #fff;
+}
+.tools2{
+    width: 208px;
+    height: 88px;
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;  
+    margin-top: -2px; 
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 6px; 
+    color: gray;
+}
+.fig{
+    position: relative;
+    top: 6px;
+}
+.git{
+    position: relative;
+    top: 14px;
+}
+.other{
+    padding-top: 16px;
+}
+.other1{
+    width: 178px;
+    height: 34px;
+    font-family: Fira Code;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.99px;
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 8px;
+    color: #fff;
+}
+.other2{
+    width: 178px;
+    height: 58px;
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;  
+    margin-top: -2px; 
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 6px; 
+    color: gray;
+}
+.fra{
+    padding-top: 16px;
+}
+.fra1{
+    width: 208px;
+    height: 34px;
+    font-family: Fira Code;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.99px;
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 8px;
+    color: #fff;
+}
+.fra2{
+    width: 208px;
+    height: 98px;
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;  
+    margin-top: -2px; 
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 6px; 
+    color: gray;
+}
+.dis{
+    position: relative;
+    top: 6px;
+}
+.fla{
+    position: relative;
+    top: 14px;
+}
+.about{
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41.98px;
+    position: relative;
+    top: 160px;
+    padding-left: 194px;
+    color: white;
+}
+.img6{
+    position: relative;
+    top: 128px;
+    padding-left: 384px;
+}
+.p1{
+    position: relative;
+    top: 186px;
+    margin-left: 198px;
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: gray;
+}
+.btn2{
+    width: 148px;
+    height: 38px;
+    position: relative;
+    top: 84px;
+    margin-left: 198px;
+    padding-top: 14px;
+    align-items: center;
+    color: white;
+    background-color: #282C33;
+    border: solid 1px #C778DD;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+.btn2:hover{
+    transform: scale(1.1);
+    border: solid 3px #C778DD;
+    background-color: #483B55;
+}
+.read{
+    position: relative;
+    top: -6px;
+}
+.rec25-1{
+    position: relative;
+    top: -52px;
+    right: 350px;
+}
+.div22{
+    display: flex;
+    margin-left: 874px;
+    position: relative;
+    top: -334px;
+}
+.dots3{
+    position: absolute;
+    margin-right: 30px;
+    top: 60px;
+}
+.dots4{
+    position: absolute;
+    top: 280px;
+    margin-left: 218px;
+}
+.line3{
+    position: absolute;
+    top: 506px;
+    margin-left: 38px;
+}
+.con{
+    font-family: "Fira Code",serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41.98px;
+    position: relative;
+    top: -220px;
+    padding-left: 194px;
+    color: white;
+}
+.line4{
+    position: relative;
+    top: -254px;
+    margin-left: 386px;
+}
+.div21{
+    height: 1134px;
+}
+.im{
+    font-family: Fira Code;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.99px;
+    color: gray;
+    position: relative;
+    top: -180px;
+    padding-left: 198px;
+}
+.frame1{
+    position: relative;
+    top: -230px;
+}
+.mes{
+    font-family: Fira Code;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.99px;
+    color: #fff;
+    padding-left: 14px;
+    padding-top: 14px;
+}
+.div23{
+    width: 200px;
+    height: 140px;
+    border: solid 1px gray;
+    position: relative;
+    top: -344px;
+    margin-left: 1000px;
+}
+.dic{
+    padding-top: 14px;
+    padding-left: 14px;
+}
+.eli{
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    color: gray;
+    position: relative;
+    top: -26px;
+    padding-left: 52px;
+    transition: transform 0.4s ease-in-out;
+}
+.email{
+    position: relative;
+    top: -14px;
+    padding-left: 14px;
+}
+.eli2{
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    color: gray;
+    position: relative;
+    top: -42px;
+    padding-left: 52px;
+    transition: transform 0.4s ease-in-out;
+}
+.eli:hover{
+    color: white;
+    transform: scale(1.1);
+}
+.eli2:hover{
+    color: #fff;
+    transform: scale(1.1);
+}
+.dic:hover{
+   color: #fff;
+}
+.a2{
+    text-decoration: none;
+}
+.line11{
+    width: 1518px;
+}
+.frame2{
+    padding-top: 32px;
+    padding-left: 194px;
+}
+.eli3{
+    position: relative;
+    top: -6px;
+    margin-left: 24px;
+    text-decoration: none;
+    color: gray;
+}
+.web1{
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    position: relative;
+    top: 16px;
+    padding-left: 194px;
+    color: #fff;
+}
+.media{
+    font-family: Fira Code;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31.49px;
+    position: relative;
+    top: 32px;
+    color: white;
+}
+.div25{
+    position: relative;
+    top: -88px;
+    margin-left: 1164px;
+}
+.a3{
+    position: relative;
+    top: 42px;
+    gap: 8px;
+}
+.copy{
+    font-family: Fira Code;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.99px;
+    padding-left: 550px;
+    position: relative;
+    top: 80px;
+    color: gray;
+}
+@media(min-width:418px) and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: #282C33;
+    }
+    .container{
+        width: 1000px;
+    }
+    .div1{
+        display: fixed;
+        height: 200px;
+    }
+    .img1{
+        padding-left: 24px;
+    }
+    .div2{
+        display: flex;
+        flex-direction: column;
+        height: 10px;
+    }
+    .vec{
+        width: 24px;
+        position: relative;
+        top: 8px;
+        margin-left: 14px;
+        cursor: pointer;
+    }
+    .vec1{
+        width: 24px;
+        position: relative;
+        top: 20px;
+        margin-left: 14px;
+        cursor: pointer;
+    }
+    .vec2{
+        width: 18px;
+        position: relative;
+        top: 32px;
+        margin-left: 16px;
+        cursor: pointer;
+    }
+    .vec4{
+        width: 24px;
+    }
+    .select{
+        border: none;
+        background-color: #282C33;
+        color: gray;
+        font-family: Fira Code;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.99px;
+    }
+    .img2{
+        width: 72px;
+        position: relative;
+        top: -174px;
+        margin-left: 104px;
+    }
+    .div3{
+        display: flex;
+        position: relative;
+        top: -194px;
+        padding-left: 504px;
+        gap: 42px;
+        transition: transform  ease-out;
+    }
+    .a1{
+        color: gray;
+        text-decoration: none;
+       
+    }
+    .a1:hover{
+        text-decoration: underline;
+        color: #fff;
+        transform: scale(1.2);
+    }
+    .span1{
+        color: #C778DD;
+    }
+    .elias{
+        font-family: "Fira Code",serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 41.98px;
+        color: #fff;
+        padding-left: 98px;
+    }
+    .span2{
+        color:#C778DD;
+    }
+    .he{
+        position: relative;
+        top: 32px;
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        padding-left: 98px;
+        color: gray;
+    }
+    .btn1{
+        width: 148px;
+        height: 38px;
+        border: solid 1px #C778DD;
+        position: relative;
+        top: 70px;
+        margin-left: 98px;
+        background-color: #282C33;
+        color: #fff;
+        transition: transform .3s cubic-bezier(0.4, 0, 1, 1);
+        cursor: pointer;
+    }
+    .btn1:hover{
+        background-color: #483B55;
+        border: solid 3px #C778DD;
+    }
+    .cont{
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.99px;
+    }
+    .btn1:hover{
+        transform: scale(1.1);
+    }
+    .div4{
+        display: flex;
+        margin-left: 664px;
+    }
+    .img3{
+        width: 90px;
+        position: relative;
+        top: -180px;
+    }
+    .img4{
+        width: 305px;
+        position: absolute;
+        top: 170px;
+    }
+    .dots{
+        width: 44px;
+        position: relative;
+        top: -88px;
+        right: 68px;
+    }
+    .div5{
+        width: 328px;
+        height: 38px;
+        border: solid 1px gray;
+        position: relative;
+        top: -78px;
+        margin-left: 640px;
+    }
+    .rec{
+        position: relative;
+        top: 10px;
+        margin-left: 8px;
+    }
+    .cur{
+        position: relative;
+        top: -12px;
+        margin-left: 34px;
+        font-family: Fira Code;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.99px;
+        color: white;
+    }
+    .cur2{
+        color: gray;
+    }
+    .div6{
+        width: 702px;
+        height: 68px;
+        position: relative;
+        top: 64px;
+        margin-left: 160px;
+        border: solid 1px gray;
+    }
+    .div7{
+        width: 172px;
+        height: 48px;
+        position: relative;
+        top: -78px;
+        margin-left: 530px;
+        border: solid 1px gray;
+    }
+    .sv{
+        width: 24px;
+        position: relative;
+        top: -10px;
+        margin-left: 22px;
+        background-color: #282C33;
+    }
+    .with{
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31.49px;
+        padding-left: 32px;
+        color: #fff;
+        z-index: auto;
+    }
+    .sv2{
+        width: 24px;
+        position: absolute;
+        top: 56px;
+        margin-left: 650px;
+        background-color: #282C33;
+        z-index: 1;
+    }
+    .dr{
+        position: relative;
+        top: 8px;
+        padding-left: 4px;
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31.49px;
+        padding-left: 32px;
+        color: #fff;
+        z-index: auto;
+    }
+    .rec26{
+        position: relative;
+        top: -42px;
+        margin-left: 736px;
+    }
+    .project{
+        width: 200px;
+        position: relative;
+        top: 180px;
+        margin-left: 86px;
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41.98px;
+        color: #fff;
+    }
+    .span3{
+        color: #C778DD;
+    }
+    .line{
+        position: relative;
+        top: 148px;
+        padding-left: 210px;
+    }
+    .view{
+        position: relative;
+        top: 133px;
+        margin-left: 784px;
+        color: white;
+        text-decoration: none;
+        transition: transform 0.3s ease-out;
+    }
+    .view:hover{
+        transform: scale(1.1);
+        text-decoration: underline;
+    }
+    .div9{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        position: relative;
+        top: 22px;
+    }
+    .rec22{
+        position: relative;
+        top: 210px;
+        border: solid 2px gray;
+    }
+    .div10{
+       display: flex;
+       flex-direction: column;
+       margin-left:20px;
+    }
+    .ht{
+        height: 34px;
+        padding-left: 6px;
+        padding-top: 4px;
+        font-family: "Fira Code",serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 208px;
+        border: solid 2px gray;
+        color: gray;
+    }
+    .div11{
+        position: relative;
+        margin-top: 206px;
+        border: solid 2px gray;
+        height: 154px;
+    }
+    .chert{
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31.49px;
+        position: relative;
+        top: 20px;
+        padding-left: 14px;
+        color: #fff;
+    }
+    .mine{
+        font-family: "Fira Code",serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 28px;
+        padding-left: 14px;
+        color: gray;
+    }
+    .live{
+        width: 102px;
+        height: 38px;
+        padding-top: 4px;
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 46px;
+        margin-left: 14px;
+        background-color: #282C33;
+        color: #fff;
+        border: none;
+        border: solid 1px #C778DD;
+        cursor: pointer;
+        transition: transform .3s ease-out;
+    }
+    .live:hover{
+        border: solid 3px #C778DD;
+        background-color: #483B55;
+        transform: scale(1.1);
+    }
+    .cash{
+        width: 102px;
+        height: 38px;
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 46px;
+        padding-left: 6px;
+        padding-top: 4px;
+        margin-left: 24px;
+        background-color: #282C33;
+        color: #fff;
+        border: none;
+        border: solid 1px gray;
+        cursor: pointer;
+        transition: transform .3s ease-out;
+    }
+    .cash:hover{
+        border: solid 3px gray;
+        transform: scale(1.1);
+    }
+    .rec22-1{
+        position: relative;
+        top: 210px;
+        border: solid 2px gray;
+    }
+    .react{
+        width: 336px;
+        height: 70px;
+        padding-left: 6px;
+        padding-top: 4px;
+        font-family: "Fira Code",serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 206px;
+        border: solid 2px gray;
+        color: gray;
+    }
+    .sc{
+        position: relative;
+        top: 16px;
+    }
+    .div13{
+        width: 336px;
+        position: relative;
+        margin-top: 205px;
+        border: solid 2px gray;
+        height: 154px;
+    }
+    .pro{
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31.49px;
+        padding-top: 14px;
+        padding-left: 14px;
+        color: white;
+    }
+    .mine2{
+        width: 260px;
+        font-family: "Fira Code",serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 12px;
+        padding-left: 14px;
+        color: gray;
+    }
+    .live2{
+        width: 102px;
+        height: 38px;
+        padding-top: 4px;
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 30px;
+        margin-left: 14px;
+        background-color: #282C33;
+        color: #fff;
+        border: none;
+        border: solid 1px #C778DD;
+        cursor: pointer;
+        transition: transform .3s ease-out;
+    }
+    .live2:hover{
+        border: solid 3px #C778DD;
+        background-color: #483B55;
+        transform: scale(1.1);
+    }
+    .div14{
+        position: relative;
+        top: -144px;
+    }
+    .css{
+        width: 334px;
+        height: 34px;
+        padding-left: 6px;
+        padding-top: 4px;
+        font-family: "Fira Code",serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 204px;
+        border: solid 2px gray;
+        color: gray;
+    }
+    .div15{
+        width: 334px;
+        position: relative;
+        top: -2px;
+        margin-top: 205px;
+        border: solid 2px gray;
+        height: 186px;
+    }
+    .kah{
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31.49px;
+        position: relative;
+        top: 20px;
+        padding-left: 14px;
+        color: #fff;
+    }
+    .get{
+        width: 350px;
+        font-family: "Fira Code",serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 28px;
+        padding-left: 14px;
+        color: gray;
+    }
+    .live3{
+        width: 102px;
+        height: 38px;
+        padding-top: 4px;
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 44px;
+        margin-left: 14px;
+        background-color: #282C33;
+        color: #fff;
+        border: none;
+        border: solid 1px #C778DD;
+        cursor: pointer;
+        transition: transform .3s ease-out;
+    }
+    .live3:hover{
+        border: solid 3px #C778DD;
+        background-color: #483B55;
+        transform: scale(1.1);
+    }
+    .img5{
+        position: relative;
+        top: -184px;
+        margin-left: 572px;
+    }
+    .skills{
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41.98px;
+        position: relative;
+        top: 160px;
+        padding-left: 124px;
+        color: white;
+    }
+    .line2{
+        position: relative;
+        top: 128px;
+        padding-left: 300px;
+    }
+    .dots1{
+        width: 64px;
+        height: 64px;
+        position: relative;
+        top: 270px;
+        left: 264px;
+    }
+    .logo1{
+        width: 114px;
+        height: 114px;
+        position: relative;
+        top: 460px;
+        left: 160px;
+    }
+    .rec24{
+        width: 86px;
+        height: 86px;
+        position: relative;
+        left: 380px;
+        top: 404px;
+    }
+    .dots2{
+        width: 64px;
+        height: 64px;
+        position: relative;
+        top: 340px;
+        left: 150px;
+    }
+    .rec24-1{
+        width: 52px;
+        height: 52px;
+        position: relative;
+        top: 450px;
+        left: 364px;
+    }
+    .div18{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin-left: 240px;
+        gap: 16px;
+    }
+    .lan{
+        margin-top: 64px;
+        margin-left: 70px;
+    }
+    .lan1{
+        width: 178px;
+        height: 34px;
+        font-family: Fira Code;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.99px;
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 8px;
+        color: #fff;
+    }
+    .lan2{
+        width: 178px;
+        height: 56px;
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;   
+        margin-top: -2px; 
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 6px; 
+        color: gray;
+    }
+    .div19{
+        display: flex;
+        flex-direction: column;
+    }
+    .data{
+        padding-top: 64px;
+    }
+    .data1{
+        width: 178px;
+        height: 34px;
+        font-family: Fira Code;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.99px;
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 8px;
+        color: #fff;
+    }
+    .data2{
+        width: 178px;
+        height: 64px;
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;  
+        margin-top: -2px;  
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 6px; 
+        color: gray;
+    }
+    .man{
+        position: relative;
+        top: 6px;
+    }
+    .tools{
+        padding-top: 64px;
+    }
+    .tools1{
+        width: 208px;
+        height: 34px;
+        font-family: Fira Code;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.99px;
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 8px;
+        color: #fff;
+    }
+    .tools2{
+        width: 208px;
+        height: 88px;
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;  
+        margin-top: -2px; 
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 6px; 
+        color: gray;
+    }
+    .fig{
+        position: relative;
+        top: 6px;
+    }
+    .git{
+        position: relative;
+        top: 14px;
+    }
+    .other{
+        padding-top: 16px;
+    }
+    .other1{
+        width: 178px;
+        height: 34px;
+        font-family: Fira Code;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.99px;
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 8px;
+        color: #fff;
+    }
+    .other2{
+        width: 178px;
+        height: 58px;
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;  
+        margin-top: -2px; 
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 6px; 
+        color: gray;
+    }
+    .fra{
+        padding-top: 16px;
+    }
+    .fra1{
+        width: 208px;
+        height: 34px;
+        font-family: Fira Code;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.99px;
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 8px;
+        color: #fff;
+    }
+    .fra2{
+        width: 208px;
+        height: 98px;
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;  
+        margin-top: -2px; 
+        border: solid 2px gray;
+        padding-top: 6px;
+        padding-left: 6px; 
+        color: gray;
+    }
+    .dis{
+        position: relative;
+        top: 6px;
+    }
+    .fla{
+        position: relative;
+        top: 14px;
+    }
+    .about{
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41.98px;
+        position: relative;
+        top: 160px;
+        padding-left: 134px;
+        color: white;
+    }
+    .img6{
+        position: relative;
+        top: 128px;
+        padding-left: 344px;
+        height: 12px;
+        width: 700px;
+    }
+    .p1{
+        position: relative;
+        top: 186px;
+        margin-left: 138px;
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: gray;
+    }
+    .btn2{
+        width: 148px;
+        height: 38px;
+        position: relative;
+        top: 124px;
+        margin-left: 138px;
+        padding-top: 14px;
+        color: white;
+        background-color: #282C33;
+        border: solid 1px #C778DD;
+        transition: transform 0.3s ease-out;
+    }
+    .btn2:hover{
+        transform: scale(1.1);
+        border: solid 3px #C778DD;
+        background-color: #483B55;
+    }
+    .read{
+        position: relative;
+        top: -6px;
+    }
+    .rec25-1{
+        width: 60px;
+        position: relative;
+        top: -52px;
+        right: 320px;
+    }
+    .div22{
+        display: flex;
+        margin-left: 684px;
+        position: relative;
+        top: -304px;
+    }
+    .dots3{
+        width: 64px;
+        position: absolute;
+        margin-right: 26px;
+        top: 60px;
+    }
+    .img7{
+        width: 300px;
+    }
+    .dots4{
+        position: absolute;
+        top: 280px;
+        margin-left: 172px;
+    }
+    .line3{
+        position: absolute;
+        top: 448px;
+        margin-left: 3px;
+    }
+    .con{
+        font-family: "Fira Code",serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41.98px;
+        position: relative;
+        top: -220px;
+        padding-left: 134px;
+        color: white;
+    }
+    .line4{
+        position: relative;
+        top: -254px;
+        margin-left: 336px;
+    }
+    .div21{
+        height: 1134px;
+    }
+    .im{
+        font-family: Fira Code;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20.99px;
+        color: gray;
+        position: relative;
+        top: -180px;
+        padding-left: 138px;
+    }
+    .frame1{
+        position: relative;
+        top: -230px;
+    }
+    .mes{
+        font-family: Fira Code;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.99px;
+        color: #fff;
+        padding-left: 14px;
+        padding-top: 14px;
+    }
+    .div23{
+        width: 200px;
+        height: 140px;
+        border: solid 1px gray;
+        position: relative;
+        top: -344px;
+        margin-left: 750px;
+    }
+    .dic{
+        padding-top: 14px;
+        padding-left: 14px;
+    }
+    .eli{
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        color: gray;
+        position: relative;
+        top: -26px;
+        padding-left: 52px;
+        transition: transform 0.4s ease-in-out;
+    }
+    .email{
+        position: relative;
+        top: -14px;
+        padding-left: 14px;
+    }
+    .eli2{
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        color: gray;
+        position: relative;
+        top: -42px;
+        padding-left: 52px;
+        transition: transform 0.4s ease-in-out;
+    }
+    .eli:hover{
+        color: white;
+        transform: scale(1.1);
+    }
+    .eli2:hover{
+        color: #fff;
+        transform: scale(1.1);
+    }
+    .dic:hover{
+       color: #fff;
+    }
+    .a2{
+        text-decoration: none;
+    }
+    .line11{
+        height: 2px;
+        width: 1518px;
+    }
+    .frame2{
+        padding-top: 32px;
+        padding-left: 124px;
+    }
+    .eli3{
+        position: relative;
+        top: -6px;
+        margin-left: 24px;
+        text-decoration: none;
+        color: gray;
+    }
+    .web1{
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        position: relative;
+        top: 16px;
+        padding-left: 124px;
+        color: #fff;
+    }
+    .media{
+        font-family: Fira Code;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31.49px;
+        position: relative;
+        top: 32px;
+        color: white;
+    }
+    .div25{
+        position: relative;
+        top: -88px;
+        margin-left: 764px;
+    }
+    .a3{
+        position: relative;
+        top: 42px;
+        gap: 8px;
+    }
+    .copy{
+        font-family: Fira Code;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.99px;
+        padding-left: 370px;
+        position: relative;
+        top: 80px;
+        color: gray;
+    }
+}
